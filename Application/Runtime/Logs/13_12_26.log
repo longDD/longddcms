@@ -1,0 +1,32 @@
+[ 2013-12-26T10:34:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+
+[ 2013-12-26T10:34:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000100s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.041667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+

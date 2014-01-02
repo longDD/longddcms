@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+  <block name="header"><include file="common/header"/></block>
+</head>
+<body>
+  <block name="body_header"><include file="common/body_header"/></block>
+
+  <!--sidebar-menu-->
+  <block name="body_menu"><include file="common/menu"/></block>
+  <!--sidebar-menu-->
+
+  <!--main-container-part-->
+  <block name="body_content">
+    <div id="content">
+
+      <!--breadcrumbs-->
+      <block name="nav"><include file="common/nav"/></block>
+      <!--End-breadcrumbs-->
+
+      <!--End-breadcrumbs-->
+        <block name="content"><include file="common/body_content"/></block>
+      <!--End-breadcrumbs-->
+
+    </div>
+  <!--end-main-container-part-->
+  </block>
+
+  <!--Footer-part-->
+  <block name="footer"><include file="common/footer"/></block>
+  <!--end-Footer-part-->
+
+</body>
+</html>
