@@ -7,21 +7,13 @@
 // +------------------------------------------------------------------------------------------
 // | Author: longDD <longdd_love@163.com> O(∩_∩)O
 // +------------------------------------------------------------------------------------------
-// | 后台基类
+// | 用户管理
 // +------------------------------------------------------------------------------------------
 namespace Admin\Controller;
-use Think\Controller;
+use Admin\Controller;
 
-class BaseController extends Controller {
-
-	//构造函数
-	public function __construct(){
-		parent::__construct();
-		//$this->checkLogin();
-	}
-
-	//判断是否登录
-	private function checkLogin(){
-
-	}
+class ManagerController extends BaseController {
+    public function index(){
+    	$this->display();
+    }
 }

@@ -14,6 +14,6 @@ use Think\Controller;
 
 class EmptyController extends Controller {
     public function index(){
-    	$this->show('Hello World!');
+    	$this->show('empty error');
     }
 }
