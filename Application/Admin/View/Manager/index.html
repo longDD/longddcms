@@ -33,10 +33,27 @@
 		        	<?php endforeach; ?>
 		          </tbody>
 		        </table>
-		        <?php dump($name); ?>
 		      </div>
 		    </div>
+		    <div class="dataTables_paginate fg-buttonset ui-buttonset fg-buttonset-multi ui-buttonset-multi paging_full_numbers">
+		    	<a class="first ui-corner-tl ui-corner-bl fg-button ui-button ui-state-default ui-state-disabled">First</a>
+		    	<a class="previous fg-button ui-button ui-state-default ui-state-disabled">Previous</a>
+		    	<span>
+		    		<a class="fg-button ui-button ui-state-default ui-state-disabled">1</a>
+		    		<a class="fg-button ui-button ui-state-default">2</a>
+		    		<a class="fg-button ui-button ui-state-default">3</a>
+		    		<a class="fg-button ui-button ui-state-default">4</a>
+		    		<a class="fg-button ui-button ui-state-default">5</a>
+		    	</span>
+		    	<a class="next fg-button ui-button ui-state-default">Next</a>
+		    	<a class="last ui-corner-tr ui-corner-br fg-button ui-button ui-state-default">Last</a></div>
 		  </div>
 		</div>
 	</div>
+</block>
+<block name="footer">
+	<script src="__PUBLIC__/matrix/js/jquery.min.js"></script> 
+	<script src="__PUBLIC__/matrix/js/jquery.ui.custom.js"></script> 
+	<script src="__PUBLIC__/matrix/js/bootstrap.min.js"></script> 
+	<script src="__PUBLIC__/matrix/js/matrix.js"></script> 
 </block>

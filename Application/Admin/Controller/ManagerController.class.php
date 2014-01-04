@@ -14,6 +14,7 @@ use Admin\Controller;
 
 class ManagerController extends BaseController {
     public function index(){
+    	$this->assign('name','longDD');
     	$this->display();
     }
 }
